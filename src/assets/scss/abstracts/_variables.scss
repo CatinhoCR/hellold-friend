@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500;700&display=swap');
+
+// Theme Site Colors TODO: Adapt accordingly
+$warm-white: #f7f7f7;
+$lightest-grey: #ccc;
+$light-grey: #757575;
+$dark-grey: #272726;
+$label-grey: #020202;
+$red: #9e3226;
+$teal: #00465f;
+// $green: #395133;
+$orange: #ee792b;
+$yellow: #fbcf4e;
+// $light-blue: #4ec0e3;
+$dark-blue: #070a17;
+$light-blue: #0077c8;
+$mid-blue: #054880;
+$cool-teal: #074f67;
+$deep-teal: #143548;
+// $red: #e82535;
+$crimson: #c92830;
+$green: #108a4b; // 009f4d
+
+// Layout Colors
+$black: #000;
+$white: #fff;
+$color-light-border: #e4e9ed;
+
+// We use this to generate color helper classes in 'themes/_color-classes'
+$theme-colors: (
+  white: $white,
+  lightest-grey: $lightest-grey,
+  black: $black,
+  light-grey: $light-grey,
+  dark-grey: $dark-grey,
+  red: $red,
+  teal: $teal,
+  green: $green,
+  orange: $orange,
+  light-blue: $light-blue,
+  mid-blue: $mid-blue,
+  dark-blue: $dark-blue,
+  cool-teal: $cool-teal,
+  deep-teal: $deep-teal
+);
+
+// Fonts TODO: Change
+$font-primary: 'Open Sans', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+$font-label: 'Roboto', sans-serif;
+$font-misc: 'Poppins', sans-serif;
+
+// Weights
+$light-weight: 300;
+$normal-weight: 400;
+$medium-weight: 500;
+$bold-weight: 700;
+
+// Browser Context Sizing for unit/measurement
+$browser-context: 10px;
+$base-line-height: 1.5;
+$base-letter-spacing: 0;
+
+// Breakpoints
+$breakpoints: (
+  xs: 420px,
+  sm: 700px,
+  md: 960px,
+  lg: 1280px,
+  xl: 1600px,
+  xxl: 2400px
+);
+
+$xs: map-get($breakpoints, xs);
+$sm: map-get($breakpoints, sm);
+$md: map-get($breakpoints, md);
+$lg: map-get($breakpoints, lg);
+$xl: map-get($breakpoints, xl);
+$xxl: map-get($breakpoints, xxl);
+
+// Paddings
+$padding-side-mobile: 20px;
+$padding-side-tablet: 40px;
+$padding-side-desktop: 80px;
+
+// Container
+
+// Defined width
+$max-width-block-text: 668px;
+
+// Navigation Heights
+$nav-height-mobile: 80px;
+$nav-height-desktop: 110px;
+$nav-height-scrolled: 60px;
+$top-banner-height: 80px;
+$bottom-banner-height: 100px;
+
+// Miscellaneous measurements
+$circle-button-scale: 1.08;
+
+// Z-Indexes
+// Z-Indexes
+$z-layers: (
+  'notice-bars': 9999,
+  'navigation': 9998,
+  'search-nav': 9997,
+  'hamburger': 9996,
+  'overlay': 9995,
+  'footer': 9994,
+  'slider-nav': 9993
+);
